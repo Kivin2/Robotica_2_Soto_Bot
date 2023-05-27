@@ -23,6 +23,7 @@ El driver provee una alimentacion de +10V respecto a su GND-COM por lo que servi
 ## Diseño de Hardware
 
 En un inicio se considerara el uso de Arduino UNO para cada motor (posible modificacion a ESP32)
+
 <p align="center">
-<img src="Acondicionador.png" alt="WS55-220" style="height: 350px; width:550px;" class="center"/>
+<img src="Acondicionador.PNG" alt="Acondicionador " style="height: 350px; width:550px;" class="center"/>
 </p>
