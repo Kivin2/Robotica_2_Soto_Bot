@@ -1,0 +1,21 @@
+Circuit: * C:\Users\alanr\OneDrive\11th Semester\Robotica 2\VSCODE\Motor\Robotica_2_Soto_Bot\Hardware\SPICE\ArduinoToDriver.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun May 28 02:27:57 2023
+Total elapsed time: 0.120 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 16949
+traniter = 16937
+tranpoints = 7029
+accept = 5673
+rejected = 1356
+matrix size = 14
+fillins = 11
+solver = Normal
+Matrix Compiler1: 1.20 KB object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 1.22 KB object code size  0.1/0.1/[0.1]
+

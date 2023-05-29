@@ -37,4 +37,4 @@ Para acondicionar la salida PWM para el Driver se utilizara el siguiente circuit
 
 ### Diseño PCB
 
-Mediante Autodesk EAGLE se diseñara uno o dos PCB que permitiran el flujo de corriente de las baterias mediante "zonas" o "regiones" de voltaje, ademas de establecer poligonos de GND para disipar el calor en caso de proteccion.
+Mediante Autodesk EAGLE se diseñara uno o dos PCB que permitiran el flujo de corriente de las baterias mediante "zonas" o "regiones" de voltaje, ademas de establecer poligonos de GND para disipar el calor en caso de proteccion, de esta manera no quemariamos el PCB.
