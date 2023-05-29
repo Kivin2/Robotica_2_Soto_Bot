@@ -29,12 +29,18 @@ En un inicio se considerara el uso de Arduino UNO para cada motor (posible modif
 <img src="Arduino.png" alt="Arduino" style="height: 350px; width:550px;" class="center"/>
 </p>
 
-Para acondicionar la salida PWM para el Driver se utilizara el siguiente circuito acondicionar, donde la señal PWM activara el NMOS (Considerando rango inverso, es decir, 255-0), al activar y desactivar el NMOS, el condensador se encargara de establecer el voltaje maximo, el diodo impedira la corriente que fluya de la descarga de C1 al NMOS. Se podra de esta manera regular la velocidad del BLDC 
+Para acondicionar la salida PWM para el Driver se utilizara el siguiente circuito acondicionar, donde la señal PWM activara el NMOS (Considerando rango inverso, es decir, 255-0), al activar y desactivar el NMOS (IRF530), el condensador se encargara de establecer el voltaje maximo, el diodo impedira la corriente que fluya de la descarga de C1 al NMOS. Se podra de esta manera regular la velocidad del BLDC 
 
 <p align="center">
 <img src="Acondicionador.PNG" alt="Acondicionador" style="height: 350px; width:550px;" class="center"/>
 </p>
 
+La salida de **Vo** permitira regular la velocidad del motor, a su vez mediante el encoder obtendremos las mediciones del **Hall A** y **Hall B** que son conectadas mediante **Pull Up** a los terminales 2 y 4 del MCU. Mediante el firmware programado podremos determinar los pulsos por unidad de tiempo y determinar el RPM medido. Es decir, logramos acondicionar nuestra muestra para poder obtener la velocidad de la rueda, de esta manera ya se puede aplicar un Control Automatico mediante un controlador PI.
+
+#### Seguimiento de Trayectoria dada la medicion RPM
+
+Acondicionada la muestra, se puede realizar una prueba dando coordenadas al azar dentro de un plano que representen un camino, un tiempo transcurrido y velocidades. 
+
 ### Diseño PCB
 
-Mediante Autodesk EAGLE se diseñara uno o dos PCB que permitiran el flujo de corriente de las baterias mediante "zonas" o "regiones" de voltaje, ademas de establecer poligonos de GND para disipar el calor en caso de proteccion, de esta manera no quemariamos el PCB.
+Mediante Autodesk EAGLE se diseñara uno o dos PCB que permitiran el flujo de corriente de las baterias mediante "zonas" o "regiones" de voltaje, ademas de establecer poligonos de GND para disipar el calor en caso de proteccion. Para el caso de señales se consideraran **Traces** de menor tamaño (inferior a 0.3mm).
