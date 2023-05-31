@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SEK100M050ST'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Cornell Dubilier", "SEK100M050ST" (!) = "", "CAPPRD200W50D525H1100", "Capacitor, Polarized Radial Diameter", "539-SEK50V10", "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SEK100M050ST?qs=SToNfkNuIf70OBUI1whdlA%3D%3D", "CORNELL DUBILIER - SEK100M050ST - ALUMINUM ELECTROLYTIC CAPACITOR 10UF, 50V, 20%, RADIAL", "https://componentsearchengine.com/Datasheets/2/SEK100M050ST.pdf", "11 mm"
+END_PART
+
+END.

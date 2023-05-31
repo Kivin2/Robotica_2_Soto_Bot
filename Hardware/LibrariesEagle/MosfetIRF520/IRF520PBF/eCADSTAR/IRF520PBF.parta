@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_255652"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-10-07-19:52:15)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "IRF520PBF")
+)
+
+
+(pinAssign "ECS_255652"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-10-07-19:52:15)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "GATE") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "DRAIN") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "SOURCE") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_255652")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "IRF520PBF")
+)
+
+
+(part "IRF520PBF"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-10-07-19:52:15)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "IRF520PBF")
+    (pinAssignRef "ECS_255652")
+    (interface
+        (port "1" (symbPinId 1) (portName "GATE") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "DRAIN") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "SOURCE") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "TRANS MOSFET N-CH 100V 9.2A 3-PIN 3+TAB Vishay Siliconix IRF520PBF N-channel MOSFET Transistor, 9.2 A, 100 V, 3-Pin TO-220AB")
+    (property "Mouser_Part_Number" "844-IRF520PBF")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRF520PBF?qs=%2FRKvNCQzLu0LFYQuStTxKg%3D%3D")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "IRF520PBF")
+    (property "Datasheet_Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1583939.pdf")
+    (property "compAreaTopHeight" 4.65)
+)
+
+

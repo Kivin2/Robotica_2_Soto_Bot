@@ -1,0 +1,16 @@
+.SEK100M050ST :1 ;CORNELL DUBILIER - SEK100M050ST - ALUMINUM ELECTROLYTIC CAPACITOR 10UF, 50V, 20%, RADIAL
+CAPPRD200W50D525H1100
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN SEK100M050ST
+~!Mouser Part Number (539-SEK50V10)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SEK100M050ST?qs=SToNfkNuIf70OBUI1whdlA%3D%3D)
+~!Manufacturer_Name (Cornell Dubilier)
+~!Manufacturer_Part_Number (SEK100M050ST)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/SEK100M050ST.pdf)
+~!Height (11mm)
+~!3D_Model (SEK100M050ST)
+SEK100M050ST
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRF520PBF
+D TRANS MOSFET N-CH 100V 9.2A 3-PIN 3+TAB Vishay Siliconix IRF520PBF N-channel MOSFET Transistor, 9.2 A, 100 V, 3-Pin TO-220AB
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1583939.pdf
+$ENDCMP
+#
+#End Doc Library

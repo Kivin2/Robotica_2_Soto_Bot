@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CMF501K0000FHEB'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Vishay", "CMF501K0000FHEB" (!) = "", "RESAD1041W46L381D165", "Resistors, Axial Diameter Horizontal Mounting", "71-CMF501K0000FHEB", "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CMF501K0000FHEB?qs=gQQ%2FpDEpiRLqpORAHHXMbg%3D%3D", "Vishay CMF50 Series ceramic Axial Metal Film Resistor 1k +/-1% 0.05W +/-50ppm/C", "https://componentsearchengine.com/Datasheets/1/CMF501K0000FHEB.pdf"
+END_PART
+
+END.

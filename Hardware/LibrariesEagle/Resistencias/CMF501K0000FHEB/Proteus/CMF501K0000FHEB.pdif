@@ -1,0 +1,124 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CMF501K0000FHEB"
+   (description "Vishay CMF50 Series ceramic Axial Metal Film Resistor 1k +/-1% 0.05W +/-50ppm/C")
+   (family "RES")
+   (package "RESAD1041W46L381D165")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/CMF501K0000FHEB.pdf")
+   (attribute "Mouser Part Number" "71-CMF501K0000FHEB")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CMF501K0000FHEB?qs=gQQ%2FpDEpiRLqpORAHHXMbg%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "CMF501K0000FHEB")
+   (gate
+    (symbol "CMF501K0000FHEB")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "CMF501K0000FHEB"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESAD1041W46L381D165"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -0.775 1.175)
+      (pt 11.175 1.175)
+      (pt 11.175 -1.175)
+      (pt -0.775 -1.175)
+      (pt -0.775 1.175))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 3.295 0.825)
+      (pt 7.105 0.825)
+      (pt 7.105 -0.825)
+      (pt 3.295 -0.825)
+      (pt 3.295 0.825))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0 0)
+      (pt 3.295 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 7.105 0)
+      (pt 10.4 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 3.295 0.825)
+      (pt 7.105 0.825)
+      (pt 7.105 -0.825)
+      (pt 3.295 -0.825)
+      (pt 3.295 0.825))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0.875 0)
+      (pt 3.295 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7.105 0)
+      (pt 9.525 0))))
+   (leg 1 (pt 0 0) (padstack 0))
+   (leg 2 (pt 10.4 0) (padstack 0))
+   (padstack 0
+    (hole 0.65)
+    (plated true)
+    (pad (layer TCOP) (round 1.05))
+    (pad (layer INNER) (round 1.05))
+    (pad (layer BCOP) (round 1.05))
+   )
+   (model "CMF501K0000FHEB.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

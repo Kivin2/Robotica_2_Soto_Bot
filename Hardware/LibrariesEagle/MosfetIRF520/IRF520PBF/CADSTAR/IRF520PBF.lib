@@ -1,0 +1,16 @@
+.IRF520PBF :1 ;TRANS MOSFET N-CH 100V 9.2A 3-PIN 3+TAB Vishay Siliconix IRF520PBF N-channel MOSFET Transistor, 9.2 A, 100 V, 3-Pin TO-220AB
+TO254P465X1024X2050-3P
+*STM Q
+*NGS
+*PLB 1="GATE" 2="DRAIN" 3="SOURCE"
+*MXP 3
+*DFN IRF520PBF
+~!Mouser Part Number (844-IRF520PBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRF520PBF?qs=%2FRKvNCQzLu0LFYQuStTxKg%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (IRF520PBF)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1583939.pdf)
+~!Height (4.65mm)
+~!3D_Model (IRF520PBF)
+IRF520PBF
+1.1!U 2.1!U 3.1!U 

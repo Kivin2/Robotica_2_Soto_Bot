@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1N4007'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Diotec", "1N4007" (!) = "", "DIOAD1405W58L465D235", "Diodes, Axial Diameter Horizontal Mounting", "637-1N4007", "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/1N4007?qs=OlC7AqGiEDmK9mU1uTiCkg%3D%3D", "Switching diode with a peak reverse voltage of 1 kV, a maximum forward current of 1 A, and a peak repetitive forward current of 5.4 A", "https://diotec.com/tl_files/diotec/files/pdf/datasheets/1n4001.pdf"
+END_PART
+
+END.

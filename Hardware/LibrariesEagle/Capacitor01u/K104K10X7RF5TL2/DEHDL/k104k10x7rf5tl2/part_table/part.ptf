@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'K104K10X7RF5TL2'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "K104K10X7RF5TL2" (!) = "", "K104K10X7RF5TL2", "Other", "594-K104K10X7RF5TL2", "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/K104K10X7RF5TL2?qs=B4Lc6Tv24tbCh1UvC16VNg%3D%3D", "Cap Ceramic 0.1uF 50V X7R 10% Radial 2.5mm 125C T/R", "https://www.vishay.com/docs/45171/kseries.pdf", "5.2 mm"
+END_PART
+
+END.

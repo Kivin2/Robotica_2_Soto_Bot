@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "K104K10X7RF5TL2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-10-10-03:13:31)
+    (mountForm default
+        (footprintRef "K104K10X7RF5TL2")
+        (spec "System")
+    )
+)

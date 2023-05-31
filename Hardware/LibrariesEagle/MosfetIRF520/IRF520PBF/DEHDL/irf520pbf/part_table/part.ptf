@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IRF520PBF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "IRF520PBF" (!) = "", "TO254P465X1024X2050-3P", "Transistor Outline, Vertical", "844-IRF520PBF", "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRF520PBF?qs=%2FRKvNCQzLu0LFYQuStTxKg%3D%3D", "TRANS MOSFET N-CH 100V 9.2A 3-PIN 3+TAB Vishay Siliconix IRF520PBF N-channel MOSFET Transistor, 9.2 A, 100 V, 3-Pin TO-220AB", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1583939.pdf", "4.65 mm"
+END_PART
+
+END.

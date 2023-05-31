@@ -1,0 +1,16 @@
+.1N4007 :1 ;Switching diode with a peak reverse voltage of 1 kV, a maximum forward current of 1 A, and a peak repetitive forward current of 5.4 A
+DIOAD1405W58L465D235
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN 1N4007
+~!Mouser Part Number (637-1N4007)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/1N4007?qs=OlC7AqGiEDmK9mU1uTiCkg%3D%3D)
+~!Manufacturer_Name (Diotec)
+~!Manufacturer_Part_Number (1N4007)
+~!Link Datasheet (https://diotec.com/tl_files/diotec/files/pdf/datasheets/1n4001.pdf)
+~!Height (-)
+~!3D_Model (1N4007)
+"1N4007"
+1.1!U 2.1!U 

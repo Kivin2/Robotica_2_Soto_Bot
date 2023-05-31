@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SEK100M050ST"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-07-15-19:51:48)
+    (mountForm default
+        (footprintRef "CAPPRD200W50D525H1100")
+        (spec "System")
+    )
+)

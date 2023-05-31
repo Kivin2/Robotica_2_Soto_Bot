@@ -1,0 +1,116 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "IRF520PBF"
+   (description "TRANS MOSFET N-CH 100V 9.2A 3-PIN 3+TAB Vishay Siliconix IRF520PBF N-channel MOSFET Transistor, 9.2 A, 100 V, 3-Pin TO-220AB")
+   (family "TRX")
+   (package "TO254P465X1024X2050-3P")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1583939.pdf")
+   (attribute "Geometry.Height" "4.65mm")
+   (attribute "Mouser Part Number" "844-IRF520PBF")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRF520PBF?qs=%2FRKvNCQzLu0LFYQuStTxKg%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "IRF520PBF")
+   (gate
+    (symbol "IRF520PBF")
+    (pin "GATE" 1 PS)
+    (pin "DRAIN" 2 PS)
+    (pin "SOURCE" 3 PS)
+   )
+  )
+  (symbol "IRF520PBF"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO254P465X1024X2050-3P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.97 3.475)
+      (pt 8.05 3.475)
+      (pt 8.05 -1.675)
+      (pt -2.97 -1.675)
+      (pt -2.97 3.475))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.72 3.225)
+      (pt 7.8 3.225)
+      (pt 7.8 -1.425)
+      (pt -2.72 -1.425)
+      (pt -2.72 3.225))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.72 1.955)
+      (pt -1.45 3.225))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7.8 -1.425)
+      (pt 7.8 3.225)
+      (pt -2.72 3.225)
+      (pt -2.72 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.54 0) (padstack 0))
+   (leg 3 (pt 5.08 0) (padstack 0))
+   (padstack 0
+    (hole 1.39)
+    (plated true)
+    (pad (layer TCOP) (round 2.085))
+    (pad (layer INNER) (round 2.085))
+    (pad (layer BCOP) (round 2.085))
+   )
+   (padstack 1
+    (hole 1.39)
+    (plated true)
+    (pad (layer TCOP) (square 2.085))
+    (pad (layer INNER) (round 2.085))
+    (pad (layer BCOP) (square 2.085))
+   )
+   (model "IRF520PBF.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

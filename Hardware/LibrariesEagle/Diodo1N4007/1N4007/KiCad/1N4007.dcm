@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N4007
+D Switching diode with a peak reverse voltage of 1 kV, a maximum forward current of 1 A, and a peak repetitive forward current of 5.4 A
+K
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/1n4001.pdf
+$ENDCMP
+#
+#End Doc Library

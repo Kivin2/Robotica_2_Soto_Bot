@@ -1,0 +1,9 @@
+Manufacturer=Diotec
+PartNumber=1N4007
+PartCategory=Diode
+PackageCategory=Diodes, Axial Diameter Horizontal Mounting
+PinCount=2
+Version=1.1
+Released=2021-12-04 08:51:16
+Downloaded=2023-05-31 03:35:02
+3D=Y
