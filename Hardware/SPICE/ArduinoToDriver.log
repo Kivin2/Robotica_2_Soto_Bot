@@ -1,21 +1,25 @@
 Circuit: * C:\Users\alanr\OneDrive\11th Semester\Robotica 2\VSCODE\Motor\Robotica_2_Soto_Bot\Hardware\SPICE\ArduinoToDriver.asc
 
+WARNING: Less than two connections to node N006.  This node is used by R1.
 Direct Newton iteration for .op point succeeded.
+.step x=0.0001
+.step x=0.0002
+.step x=0.0003
 
-Date: Sun May 28 02:27:57 2023
-Total elapsed time: 0.120 seconds.
+Date: Wed May 31 16:44:43 2023
+Total elapsed time: 38.070 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 16949
-traniter = 16937
-tranpoints = 7029
-accept = 5673
-rejected = 1356
+totiter = 4832725
+traniter = 4832717
+tranpoints = 1695486
+accept = 1180868
+rejected = 514618
 matrix size = 14
-fillins = 11
+fillins = 0
 solver = Normal
-Matrix Compiler1: 1.20 KB object code size  0.2/0.1/[0.1]
-Matrix Compiler2: 1.22 KB object code size  0.1/0.1/[0.1]
+Matrix Compiler1: 626 bytes object code size  0.2/0.1/[0.2]
+Matrix Compiler2: off  [0.1]/0.1/0.2
 

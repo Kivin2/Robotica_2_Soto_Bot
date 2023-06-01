@@ -81,7 +81,7 @@ void loop() {
  
   // Record the time
   currentMillis = millis();
-    analogWrite(10,240);
+    analogWrite(6,230);
   // If one second has passed, print the number of pulses
   if (currentMillis - previousMillis > interval) {
  
