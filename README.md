@@ -1,7 +1,8 @@
 #  Lidar
 
-
-![image](https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/4ce6c13c-f820-430e-bee3-f06da935806c)
+<p align="center">
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/4ce6c13c-f820-430e-bee3-f06da935806c />
+</p>
 
 
 
@@ -28,24 +29,31 @@ https://www.sgbotic.com/products/datasheets/sensors/DE-LiDAR%20TFmini%20Datashee
 Entre ellas el rango de medición, los respectivos pines del TFmini
 
 Rango de medición:
-![image](https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/87956bca-f0ff-4ebe-9232-b5762b871696)
 
-![image](https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/adbea506-4c73-4374-985d-ef26db3fdffb)
+<p align="center">
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/87956bca-f0ff-4ebe-9232-b5762b871696 />
+</p>
 
+<p align="center">
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/adbea506-4c73-4374-985d-ef26db3fdffb />
+</p>
 Pin del TFmini:
-
-![image](https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/07b5c547-cc40-43b6-bdcc-93c88334a363)  
-
-![image](https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/5d969c8f-b090-4b01-bb81-c1cf256cc522)
-
+<p align="center">
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/07b5c547-cc40-43b6-bdcc-93c88334a363 />
+</p>
+<p align="center">
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/5d969c8f-b090-4b01-bb81-c1cf256cc522 />
+</p>
 Dada las circunstancias, para verificar el estado funcional del lidar, se procedió a probar en un software que se encuentra accesible por medio de la pagina oficial que  fabrica este sensor, del cual mediante.
 
 > etapa 2:
 En esta ocasión se recomienda no usar un Arduino uno en conjunto al TFmini Lidar,  ya que se tiene que tomar demasiado en cuenta el uso del protocolo de comunicación del TF mini, e interfaz de la placa de desarrollo a utilizar, que en esta ocasión es protocolo Uart y respectivamente se programará en Arduino IDE
 
 > El cual se determino usar un esp32 Wroom
+<p align="center">
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/a21bab76-9f40-40e2-988b-6f693efb4050 />
+</p>
 
-![image](https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/a21bab76-9f40-40e2-988b-6f693efb4050)
-
-
-![image](https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/3a33a342-59a3-4e09-b02c-7715dff2a4b4)
+<p align="center">
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/3a33a342-59a3-4e09-b02c-7715dff2a4b4 />
+</p>
