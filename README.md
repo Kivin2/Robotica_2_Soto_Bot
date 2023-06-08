@@ -16,13 +16,13 @@ En resumen, la aplicación del TFmini abarca desde la detección de obstáculos 
 
 
 **_Objetivos:_**
-- comprender el uso del TFmini Lidar y en conjunto la interfaz  y placas de desarrollo disponibles a utilizar.
-- obtener las lecturas correspondiente de acuerdo a la descripción que viene de fabrica.
+- Comprender el uso del TFmini Lidar y en conjunto la interfaz  y placas de desarrollo disponibles a utilizar.
+- Obtener las lecturas correspondiente de acuerdo a la descripción que viene de fabrica.
 
 
 **_Desarrollo_**
 
-> etapa 1:
+> Etapa 1:
 Inicialmente, se procedió a buscar información sobre el modelo del dispositivo a utilizar, en este caso el TFmini Lidar, los cuales junto a @Kivin2  nos  basamos del siguiente link para reconocer las características de este dispositivo.
 https://www.sgbotic.com/products/datasheets/sensors/DE-LiDAR%20TFmini%20Datasheet-V1.7-EN.pdf
 
@@ -46,7 +46,7 @@ Pin del TFmini:
 </p>
 Dada las circunstancias, para verificar el estado funcional del lidar, se procedió a probar en un software que se encuentra accesible por medio de la pagina oficial que  fabrica este sensor, del cual mediante.
 
-> etapa 2:
+> Etapa 2:
 En esta ocasión se recomienda no usar un Arduino uno en conjunto al TFmini Lidar,  ya que se tiene que tomar demasiado en cuenta el uso del protocolo de comunicación del TF mini, e interfaz de la placa de desarrollo a utilizar, que en esta ocasión es protocolo Uart y respectivamente se programará en Arduino IDE
 
 > El cual se determino usar un esp32 Wroom
