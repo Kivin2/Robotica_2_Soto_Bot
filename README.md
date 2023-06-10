@@ -1,7 +1,7 @@
 #  Lidar
 
 <p align="center">
-  <img src= />"Lidar.png.jpg" </p>
+  <img src= />"Lidar.ino.jpg" </p>
 
 
 
