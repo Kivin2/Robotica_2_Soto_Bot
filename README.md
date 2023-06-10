@@ -1,8 +1,9 @@
 
 #  Lidar
 
-
-  ![Lidar png](https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/d2d76998-c7d3-4c7c-a193-8716fe54d627) 
+ <p align="center">
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/133912322/bb5950d0-ebd6-49d0-a526-a048c8cbe33a />
+</p>
 
 
 
@@ -31,18 +32,18 @@ Entre ellas el rango de medición, los respectivos pines del TFmini
 Rango de medición:
 
 <p align="center">
-  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/87956bca-f0ff-4ebe-9232-b5762b871696 />
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/133912322/6c151638-d919-44ba-b743-c3ff11fad469 />
 </p>
 
 <p align="center">
-  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/adbea506-4c73-4374-985d-ef26db3fdffb  />
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/133912322/9072db82-78e4-4271-b567-fe4c38bfd629  />
 </p>
 Pin del TFmini:
 <p align="center">
-  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/07b5c547-cc40-43b6-bdcc-93c88334a363 />
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/133912322/ef2cbd2d-211b-4c44-8229-de8693702d8b />
 </p>
 <p align="center">
-  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/5d969c8f-b090-4b01-bb81-c1cf256cc522 />
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/133912322/12fa4830-a41b-4706-a58c-5a64061cd67e />
 </p>
 Dada las circunstancias, para verificar el estado funcional del lidar, se procedió a probar en un software que se encuentra accesible por medio de la pagina oficial que  fabrica este sensor, del cual mediante.
 
@@ -51,9 +52,9 @@ En esta ocasión se recomienda no usar un Arduino uno en conjunto al TFmini Lida
 
 > El cual se determino usar un esp32 Wroom
 <p align="center">
-  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/a21bab76-9f40-40e2-988b-6f693efb4050 />
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/133912322/6d52daa3-58a2-42c8-bb3f-1340e5c0f97d />
 </p>
 
 <p align="center">
-  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/133912322/1d286a22-aac5-41a8-a39c-0a8166ce62e7 />
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/133912322/66dbe0cc-aabf-458a-b565-11cea2f5fd9a/>
 </p>
