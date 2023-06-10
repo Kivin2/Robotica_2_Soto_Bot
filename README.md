@@ -1,7 +1,7 @@
 #  Lidar
 
 <p align="center">
-  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/4ce6c13c-f820-430e-bee3-f06da935806c />
+  <img src= />Captura de pantalla 2023-06-07 012038.png
 </p>
 
 
