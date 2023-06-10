@@ -1,7 +1,7 @@
 #  Lidar
 
 <p align="center">
-  <img src= />"Captura de pantalla 2023-06-07 012038.png"
+  <img src= />"Lidar.png.png"
 </p>
 
 
