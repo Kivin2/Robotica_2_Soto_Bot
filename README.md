@@ -55,5 +55,5 @@ En esta ocasión se recomienda no usar un Arduino uno en conjunto al TFmini Lida
 </p>
 
 <p align="center">
-  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/3a33a342-59a3-4e09-b02c-7715dff2a4b4 />
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/133912322/1d286a22-aac5-41a8-a39c-0a8166ce62e7 />
 </p>
