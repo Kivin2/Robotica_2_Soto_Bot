@@ -1,3 +1,4 @@
+![Lidar png](https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/d2d76998-c7d3-4c7c-a193-8716fe54d627)
 #  Lidar
 
 <p align="center">
