@@ -35,6 +35,7 @@ Para acondicionar la salida PWM para el Driver se utilizara el siguiente circuit
 <img src="Acondicionador.PNG" alt="Acondicionador" style="height: 350px; width:550px;" class="center"/>
 </p>
 
+
 La salida de **Vo** permitira regular la velocidad del motor, a su vez mediante el encoder obtendremos las mediciones del **Hall A** y **Hall B** que son conectadas mediante **Pull Up** a los terminales 2 y 4 del MCU. Mediante el firmware programado podremos determinar los pulsos por unidad de tiempo y determinar el RPM medido. Es decir, logramos acondicionar nuestra muestra para poder obtener la velocidad de la rueda, de esta manera ya se puede aplicar un Control Automatico mediante un controlador PI.
 
 #### Seguimiento de Trayectoria dada la medicion RPM
@@ -43,4 +44,25 @@ Acondicionada la muestra, se puede realizar una prueba dando coordenadas al azar
 
 ### Diseño PCB
 
-Mediante Autodesk EAGLE se diseñara uno o dos PCB que permitiran el flujo de corriente de las baterias mediante "zonas" o "regiones" de voltaje, ademas de establecer poligonos de GND para disipar el calor en caso de proteccion. Para el caso de señales se consideraran **Traces** de menor tamaño (inferior a 0.3mm).
+Se probo en laboratorio mediante protoboard ocupar una inductancia de 18mH y se obtuvo una respuesta ruidosa, por lo que cambiamos L1 a 68uH y C2 a 47uF, lo cual nos entrego buen rendimiento. En general los componentes actualizados son:
+
+- C1 = 0.1uF
+- C2 = 47uF
+- D1 = 1N4007
+- R2 = R3 = 1k OHM
+- R4 = 33k OHM
+- RL = 10k OHM
+- L1 = 68uH 
+- M1 = IRF520
+
+Mediante Autodesk EAGLE se diseñara un PCB que permitira acondicionar la señal segun lo simulado en LTSpice.
+
+Tenemos el Schematic del circuito donde se consideraran entradas de 4 pines y salida de 2 pines.
+<p align="center">
+<img src="Schematic.PNG" alt="Esquema Circuito" style="height: 350px; width:750px;" class="center"/>
+</p>
+
+Obtenemos el PCB para fabricarlo
+<p align="center">
+<img src="Board.PNG" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
+</p>

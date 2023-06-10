@@ -40,7 +40,8 @@ float ang_velocity_right_deg = 0;
 const float rpm_to_radians = 0.10471975512;
 const float rad_to_deg = 57.29578;
 
-
+float RPM = 200;
+float Velocity;
 // Increment the number of pulses by 1
 void right_wheel_pulse() {
    
@@ -80,8 +81,11 @@ void setup() {
 void loop() {
  
   // Record the time
+
   currentMillis = millis();
-    analogWrite(6,230);
+  Velocity=map(RPM,0,720,230,0);
+  //Velocity = -2.5*RPM+(5*115+56);
+    analogWrite(6,Velocity);
   // If one second has passed, print the number of pulses
   if (currentMillis - previousMillis > interval) {
  
