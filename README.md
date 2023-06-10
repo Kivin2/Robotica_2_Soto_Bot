@@ -35,7 +35,7 @@ Rango de medición:
 </p>
 
 <p align="center">
-  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/adbea506-4c73-4374-985d-ef26db3fdffb />
+  <img src=https://github.com/Kivin2/Robotica_2_Soto_Bot/assets/83624805/adbea506-4c73-4374-985d-ef26db3fdffb  />
 </p>
 Pin del TFmini:
 <p align="center">
