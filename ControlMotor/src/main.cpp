@@ -24,7 +24,7 @@ boolean Direction_right = true;
 volatile long right_wheel_pulse_count = 0;
  
 // One-second interval for measurements
-int interval = 1000;
+int interval = 100;
   
 // Counters for milliseconds during interval
 long previousMillis = 0;
@@ -40,7 +40,7 @@ float ang_velocity_right_deg = 0;
 const float rpm_to_radians = 0.10471975512;
 const float rad_to_deg = 57.29578;
 
-float RPM = 200;
+float RPM = 600;
 float Velocity;
 // Increment the number of pulses by 1
 void right_wheel_pulse() {
@@ -83,7 +83,7 @@ void loop() {
   // Record the time
 
   currentMillis = millis();
-  Velocity=map(RPM,0,720,230,0);
+  Velocity=map(RPM,0,720,0,230);
   //Velocity = -2.5*RPM+(5*115+56);
     analogWrite(6,Velocity);
   // If one second has passed, print the number of pulses
@@ -96,18 +96,18 @@ void loop() {
     ang_velocity_right = rpm_right * rpm_to_radians;   
     ang_velocity_right_deg = ang_velocity_right * rad_to_deg;
      
-    Serial.print(" Pulses: ");
-    Serial.println(right_wheel_pulse_count);
-    Serial.print(" Speed: ");
+    //Serial.print(" Pulses: ");
+    //Serial.println(right_wheel_pulse_count);
+    //Serial.print(" Speed: ");
     Serial.print(rpm_right);
     Serial.println(" RPM");
-    Serial.print(" Angular Velocity: ");
-    Serial.print(rpm_right);
-    Serial.print(" rad per second");
-    Serial.print("\t");
-    Serial.print(ang_velocity_right_deg);
-    Serial.println(" deg per second");
-    Serial.println();
+    //Serial.print(" Angular Velocity: ");
+    //Serial.print(rpm_right);
+    //Serial.print(" rad per second");
+    //Serial.print("\t");
+    //Serial.print(ang_velocity_right_deg);
+    //Serial.println(" deg per second");
+    //Serial.println();
     
     right_wheel_pulse_count = 0;
    
