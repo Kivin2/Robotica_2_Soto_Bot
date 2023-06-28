@@ -1,33 +1,30 @@
 #include <Servo.h>
 
-Servo myservo;  //crea un referencia al servo motor
-
-int posi = 0;    //posición inicial del servo
-int posiciones[] = {0, 45, 90, 135, 180};  //posiciones (en grados) para moverse
-int nPosiciones = 5; //numero de posiciones disponibles
-
+Servo servo;
+int pinServo=9;
 void setup()
 {
-  //control servo motor via pin 9
-  myservo.attach(9, 650, 2350);
-  Serial.begin(9600);
+  //Inicializamos la posicion del servo
+  servo.attach(pinServo, 500, 2500);
 }
-
-void loop()
-{
-  //cambiando de posiciones usando un "for"
-  for(int i = 0; i < nPosiciones; i++)
-  {        
-    posi = posiciones[i];
-
-    //Activa el Monitor Serie para ver la posicion en que está
-    Serial.println("SETTING:");
-    Serial.println(posi);
-
-    //cambio de posicion del servo a una nueva
-    myservo.write(posi);
-
-    //espero 1 segundos
-    delay(1000);
+//Inicializamos la posicion (en grados) del servo
+int pos = 0;
+void loop() {
+  //Ciclo que posicionara el servo desde 0 hsta 180 grados
+  for (pos = 0; pos <= 180; pos += 1) {
+    //Movemos el servo a los grados que le entreguemos
+    
+    servo.write(pos);
+    Serial.println(pos);
+    //Esperamos 15 milisegundos
+    delay(15);
   }
-}
+  //Ciclo que posicionara el servo desde 180 hsta 0 grados
+  for (pos = 180; pos >= 0; pos -= 1) {
+    //Movemos el servo a los grados que le entreguemos
+    servo.write(pos);
+    Serial.println(pos);
+    //Esperamos 15 milisegundos
+    delay(15);
+  }
+   }
