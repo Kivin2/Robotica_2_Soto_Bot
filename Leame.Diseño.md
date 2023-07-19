@@ -12,3 +12,5 @@ además se tuvo  que desarmar la carcasa de plastico, como se menciono, el vehic
 </p>
 
 En consecuente se procede a diseñar la base que sostenera el circuiterio a utilizar.
+<img src= https://github.com/Kivin2/Robotica_2_Soto_Bot/blob/Chuquimia-Kevin/esquema_pizarra.png?raw=true />
+</p>
