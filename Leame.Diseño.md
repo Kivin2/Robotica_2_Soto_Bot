@@ -5,3 +5,4 @@ para ello  como modo de reciclaje se uso una hoverboard el modelo de este vehicu
 
 además se tuvo  que desarmar la carcasa de plastico, como se menciono, el vehiculo se esta reciclando.
 
+https://github.com/Kivin2/Robotica_2_Soto_Bot/blob/Chuquimia-Kevin/hoverboard.png?raw=true
