@@ -11,3 +11,4 @@ además se tuvo  que desarmar la carcasa de plastico, como se menciono, el vehic
   <img src= https://github.com/Kivin2/Robotica_2_Soto_Bot/blob/Chuquimia-Kevin/hoverboard.png?raw=true />
 </p>
 
+En consecuente se procede a diseñar la base que sostenera el circuiterio a utilizar.
