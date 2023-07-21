@@ -64,3 +64,32 @@ Se descubrio a traves de diferentes testeos que una camara USB seria una mejor o
 OpenCV es una libreria de Python que permite trabajar con los frames que entrega una camara. A este frame se le puede aplicar diferentes filtros y metodos de calculo, lo que da inicio a la vision computacional. En el archivo *openCV1-Camera.py* se demuestra como obteniendo un frame y luego mostrandolo se puede visualizar el videostream.
 En esta parte tambien se experimento con el dibujo encima de las imagenes, filtros, texto, etc.
 ### Reconocimiento Facial
+Para esto primero se requiere instalar una libreria. Aunque primero se deben instalar algunos paquetes necesarios. Luego se tiene que clonar el repositorio donde esta la libreria de reconocimiento facial. Finalmente se tiene que reinciar para aplicar los cambios.
+```
+$ sudo apt-get install cmake libopenblas-dev liblapack-dev libjpg-dev
+$ git clone https://github.com/JetsonHacksNano/installSwapfile
+$ ./installSwapfile/installSwapfile.sh
+$ sudo reboot now
+```
+ahora se tiene que instalar otro paquete y finalmente instalar la libreria:
+```
+$ wget http://dlib.net/files/dlib-19.17.tar.bz2
+$ tar jxvf dlib-19.17.tar.bz2
+$ ./installSwapfile/installSwapfile.sh
+$ cd dlib-19.17.tar.bz2
+$ sudo python3 setup.py install
+$ sudo pip3 install face_recognition
+```
+Con todo esto ya se puede utilizar la libreria en los scripts de python. Estos Scripts estan en la carpeta *FaceRecognizer*
+
+### Sensores
+En un principio se pensaba usar distintos sensores conectados directamente a la Jetson Nano. Pero solo se pudo experimentar con el sensor MPU6050 el cual tiene una comunicacion I2C.
+
+Existe una libreria para usar este sensor directamente con la jeston nano y se descarga de la siguiente manera:
+```
+$ sudo apt-get install adafruit-circuitpython-mpu6050
+```
+luego se puede probar a traves del script *MPU6050.py*
+
+### Actuadores
+Quien controla a los actuadores (motores brushless) es un arduino uno. Por lo que para esta parte solo se experimento con enviar cierta informacino de manera serial a un arduino conectado por USB a la Jetson Nano.
