@@ -2,7 +2,7 @@ import face_recognition
 import cv2
 print(cv2.__version__)
 
-image = face_recognition.load_image_file('/home/rob/Desktop/pyPro/FaceRecognizer/demoImages/unknown/u14.jpg')
+image = face_recognition.load_image_file('/home/rob/Desktop/pyPro/FaceRecognizer/demoImages/unknown/u14.jpg') #Cammbiar direccion por la de ustedes
 face_locations=face_recognition.face_locations(image)
 #print(face_locations)
 image = cv2.cvtColor(image,cv2.COLOR_RGB2BGR)
