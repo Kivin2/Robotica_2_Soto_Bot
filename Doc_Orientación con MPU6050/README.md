@@ -71,7 +71,7 @@ El seudocodigo consiste en:
 | Calibración del Giroscopio | Si cal_gyro es 1, el código realiza una calibración del giroscopio en reposo y calcula los valores de offset (G_off) para eliminar las lecturas no deseadas del giroscopio en estado estacionario. |
 | Actualización del Algoritmo AHRS-Mahony | Procesamiento de los datos del acelerómetro y giroscopio para actualizar el algoritmo AHRS-Mahony en la función **Mahony_update()**. |
 | Cálculos de Ángulos de Euler | Se convierten los valores quaternion actualizados en ángulos de Euler (yaw, pitch and roll) en la función **(loop)** representando la orientación del sensor en grados. Es importante señalar que la guiñada convencional es positiva en dirección horaria desde el Norte terrestre. Esta conversión está previamente ajustada a eso, no significa que la MPU-6050 esté notando donde está el Norte sin un magnetómetro.
-| Impresión de Ángulos: Los ángulos de Euler calculados se imprimen en el monitor serie de Arduino cada cierto intervalo (print_ms) para que puedan ser monitoreados o visualizados en tiempo real.
+| Impresión de Ángulos | Los ángulos de Euler calculados se imprimen en el monitor serie de Arduino cada cierto intervalo (print_ms) para que puedan ser monitoreados o visualizados en tiempo real. |
 
 ## Conexionado MPU6050 - ARDUINO UNO
 <p align="center">
