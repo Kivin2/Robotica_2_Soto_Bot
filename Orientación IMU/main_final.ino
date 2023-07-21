@@ -149,7 +149,7 @@ void loop()
     //conversión de ángulos a través de la teoría de quaternios
     roll  = atan2((q[0] * q[1] + q[2] * q[3]), 0.5 - (q[1] * q[1] + q[2] * q[2]));
     pitch = asin(2.0 * (q[0] * q[2] - q[1] * q[3]));
-    //la guiñada convencional es positiva dirección horaria desde el Norte terrestre. Esta conversión está previamente ajustada a eso
+    //la guiñada convencional es positiva dirección horaria desde el Norte terrestre. 
     //Esta conversión está previamente ajustada a eso, no significa que la MPU-6050 esté notando donde está el Norte sin un magnetómetro
     yaw   = -atan2((q[1] * q[2] + q[0] * q[3]), 0.5 - (q[2] * q[2] + q[3] * q[3]));
     
