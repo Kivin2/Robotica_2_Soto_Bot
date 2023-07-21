@@ -1,7 +1,7 @@
 # SOTO Bot con Nvidia Jetson Nano
 Aqui veremos la experimentacion que tuvo lugar con la Nvidia Jetson Nano para desarrollar herramientas utiles a la hora de construir a SOTOBOT.
 
-## Que es una Jetson Nano
+## 1. Que es una Jetson Nano
 
 Nvidia Jetson nano es una plataforma de desarrollo creada por Nvidia para aplicaciones de inteligencia artificial y deep learning. Es una opcion atractiva ya que los microcontroladores que usualmente se utilizaban para los desarrollos de prototipos o experimentacion mas "casera" carecian de poder de procesamiento para utilizarlas en aplicaciones de inteligencia atificial.
 
@@ -36,5 +36,31 @@ De aqui se siguen los pasos de la  [Guia de Inicio](https://developer.nvidia.com
 
 En pocas palabras se descarga el OS, el cual es una version de Ubuntu. Se quema el OS en la tarjeta SD a traves de un adaptador y un software especifico, y finalmente se inserta la tarjeta con el OS en la placa. Se conectan todos los perifericos necesarios y luego se conecta la alimentacion. Apenas se conecte la alimentacion la Jetson Nano se prenderá y podras comenzar la configuracion inicial de la tarjeta.
 
-## Primeras Configuraciones
+## 2. Primeras Configuraciones
 El sistema operativo es Linux. Por lo que necesitamos varios programas y paquetes antes de siquiera empezar a usar la tarjeta.
+
+### Visual Studio Code
+Para esto se puede descargar el paquete directamente de la pagina de Visual Studio Code y luego instalarlo por la linea de comandos.
+
+La otra manera es clonar un repositorio de github que consitne un script que te instala VScode a su ultima version automaticamente. Yo lo hice de la ultima manera.
+
+```
+$ git clone https://github.com/JetsonHacksNano/installVSCode.git
+$ cd installVSCode
+$ ./installVSCodeWithPython.sh
+```
+Este scrip instala VSCode con la extension de Python ya integrada. Por lo que podemos empezar a programar en python inmediatamente. Las librerias que se iran utilizando se tienen que instalar de forma independiente (pip, numpy, matplotlib, pygame, etc.)
+
+### Camara
+La camara utilizada en este caso es la Raspbery pi Arducam imx519. Para que fucione se tiene que descargar los drivers. Esto se hace siguiento los pasos de la [guia de Arducam](https://docs.arducam.com/Nvidia-Jetson-Camera/Native-Camera/Quick-Start-Guide/).
+Tambien se debe instalar v4l-utils, el cual es una serie de paquetes para manejar dispositivos multimedia. Esto se hace con el siguiente comando:
+```
+$ sudo apt-get install v4l-utils
+```
+Se descubrio a traves de diferentes testeos que una camara USB seria una mejor opcion ya que la raspberry pi cam se le hace funcionar a traves de un codificador llamado Gstreamer, lo que añade mas dificultad a cualquier programa que utilice video.
+
+## 3. Desarrollo de Codigos
+### OpenCV
+OpenCV es una libreria de Python que permite trabajar con los frames que entrega una camara. A este frame se le puede aplicar diferentes filtros y metodos de calculo, lo que da inicio a la vision computacional. En el archivo *openCV1-Camera.py* se demuestra como obteniendo un frame y luego mostrandolo se puede visualizar el videostream.
+En esta parte tambien se experimento con el dibujo encima de las imagenes, filtros, texto, etc.
+### Reconocimiento Facial
