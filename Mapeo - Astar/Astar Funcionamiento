@@ -1,0 +1,25 @@
+El A* es un algoritmo de búsqueda en grafos utilizado para encontrar el camino o ruta mas cortos (optimo) entre 2 puntos. 
+
+El Algoritmo utiliza algunas funciones como:
+Heurística que estima los costos para llegar a la meta a través de los nodos.
+Costos que combina el costo real para llegar a un nodo y la anterior nombrada heurística 
+Nuestra problemática era atravesar la universidad desde un extremo a otro considerando cada camino utilizable en la universidad. 
+
+Junto a esto se decidió manualmente bloquear caminos, 
+debido que ya habíamos estimado el camino mas corto a simple vista.
+Para la imagen de la universidad se uso la pagina https://snazzymaps.com/ 
+para poder tener una mejor vista de los caminos de la universidad, 
+pero no teníamos por completa la imagen, ya que era necesario que esta disponga de una dimensión exacta que representaría el tamaño de la universidad, 
+para este caso se coloco la universidad de forma vertical y se coloco en escala de 660x240 pixeles representando así los 660x240 metros 
+(cada casilla seria de 1x1m lo que representa un pixel).
+Una vez editada la imagen para que los caminos no se juntaran con los edificios y que la escala de la imagen sea la correcta conseguimos la siguiente imagen.
+(imagen mapaUTA)
+Una vez hecha la imagen de la universidad se procedió a procesarla en Matlab y convertirla en una matriz binaria y 
+al mismo tiempo se coloco esta matriz en el código del algoritmo A*.
+Gracias a esto se pudo conseguir el archivo A_Star2.m de Matlab para analizar la imagen, 
+convertirla en una matriz binaria (matriz_binaria), editar esta matriz para que este en valores de 2 y -1 (mapa), 
+colocar esta nueva matriz en el código de A_Star.m para que sea el nuevo MAP del algoritmo 
+(Es necesario hacer que esta nueva matriz este transpuesta al momento de asignarla como MAP,
+ sino marca un error) y de esta forma podemos hacer un algoritmo A* en una imagen de la universidad de Tarapacá para ver el camino optimo desde 
+18 de Septiembre hasta Senador Valente Rossi.
+(imagen mapaUTA_ruta).
