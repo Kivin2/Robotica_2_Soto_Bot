@@ -55,14 +55,27 @@ Se probo en laboratorio mediante protoboard ocupar una inductancia de 18mH y se 
 - L1 = 68uH 
 - M1 = IRF520
 
-Mediante Autodesk EAGLE se diseñara un PCB que permitira acondicionar la señal segun lo simulado en LTSpice.
+Mediante Autodesk EAGLE se diseñara un PCB que permitira acondicionar la señal segun lo simulado en LTSpice, ademas se incluyeron los Arduinos, conexiones pull-up para activar el F/R del WS55-220, entradas para recibir las velocidades de la Nvidia Jetson, interruptor de apagado y encendido.
 
-Tenemos el Schematic del circuito donde se consideraran entradas de 4 pines y salida de 2 pines.
 <p align="center">
 <img src="Schematic.PNG" alt="Esquema Circuito" style="height: 350px; width:750px;" class="center"/>
 </p>
 
-Obtenemos el PCB para fabricarlo
+Obtenemos el PCB de 2 capas proximo a fabricar
 <p align="center">
-<img src="Board.PNG" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
+<img src="Board1.PNG" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
+</p>
+<p align="center">
+<img src="Board2.PNG" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
+</p>
+
+El modelo 3D de la placa es el siguiente:
+- TOP LAYER:
+<p align="center">
+<img src="3D1.PNG" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
+</p>
+
+- BOTTOM LAYER:
+<p align="center">
+<img src="3D2.PNG" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
 </p>
