@@ -62,6 +62,7 @@ _Es importante señalar que, si bien AHRS-Mahony es una solución eficiente y pr
 - El siguiente código solamente utiliza la libreria Wire.h que viene de forma predeterminada en Arduino IDE. Esta librería permite comunicarse con dispositivos por bus I2C usando las lineas: SDA (datos) y SCL (reloj)
 - Se agregan las líneas de código para la calibración del MPU tomando 500 datos
 - Se agregan las líneas de código para la transformación a grados y condicionales que muestren un intervalo de [-90° - 90°] en la variación de R-P-Y.
+
 El seudocodigo consiste en:
 
 | Sección | Función |
