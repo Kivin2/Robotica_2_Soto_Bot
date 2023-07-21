@@ -63,19 +63,19 @@ Mediante Autodesk EAGLE se diseñara un PCB que permitira acondicionar la señal
 
 Obtenemos el PCB de 2 capas proximo a fabricar
 <p align="center">
-<img src="Board1.PNG" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
+<img src="Board1.png" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
 </p>
 <p align="center">
-<img src="Board2.PNG" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
+<img src="Board2.png" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
 </p>
 
 El modelo 3D de la placa es el siguiente:
 - TOP LAYER:
 <p align="center">
-<img src="3D1.PNG" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
+<img src="3D1.png" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
 </p>
 
 - BOTTOM LAYER:
 <p align="center">
-<img src="3D2.PNG" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
+<img src="3D2.png" alt="Esquema Circuito" style="height: 550px; width:650px;" class="center"/>
 </p>
